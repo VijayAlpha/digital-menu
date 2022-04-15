@@ -63,6 +63,10 @@ body {
     'head head'
     'list recipe';
 
+  &--gird-fr1{
+    grid-template-columns: 1fr !important;
+  }
+
   @media only screen and (max-width: $bp-large) {
     max-width: 100%;
     margin: 0;

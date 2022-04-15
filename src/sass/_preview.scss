@@ -74,6 +74,10 @@
     max-width: 25rem;
     white-space: nowrap;
     overflow: hidden;
+
+    &--full-width{
+      max-width: none;
+    }
   }
 
   &__publisher {
